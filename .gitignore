@@ -1,0 +1,38 @@
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+config.py
+# --- Віртуальні середовища (Virtual Environments) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Кеш та скомпільовані файли Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Змінні середовища та секрети (паролі, API-ключі) ---
+.env
+.env.*
+
+# --- Логи та локальні бази даних ---
+*.log
+*.sqlite3
+db.sqlite3
+
+# --- Збірка та дистрибутиви ---
+build/
+dist/
+*.egg-info/
+
+# --- Тести та покриття коду ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Системні файли ОС ---
+.DS_Store
+Thumbs.db
